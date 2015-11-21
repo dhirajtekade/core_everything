@@ -1,0 +1,873 @@
+com.xaraya.modules.bermuda.calendar
+
+com.xaraya.modules.bermuda.scheduler
+----------------------------
+/*chmusica Theme*/
+
+mkdir chmusica
+cd chmusica
+git init
+git remote add -t ch.netspan.xaraya.themes.chmusica -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.xaraya.themes.chmusica
+git checkout -b ch.netspan.xaraya.themes.chmusica
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "Reverted previous changes for insert members"
+git push
+
+git commit --amend -m "Next week URL changes"
+
+-------------------------------------------------
+/*core bermuda modules*/
+
+
+mkdir bermuda
+cd bermuda
+git init
+git remote add -t com.xaraya.core.bermuda -f origin https://github.com/xaraya/core
+git checkout origin/com.xaraya.core.bermuda
+git checkout -b com.xaraya.core.bermuda
+git pull
+
+
+
+/*Overwrite files*/
+git add .
+git status
+git add -u
+git status
+git commit -a -m "editicons and listing newlink template changes"
+git push
+
+--------------------------------------------
+/* Shop module*/
+
+mkdir shop
+cd shop
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.shop -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.shop
+git checkout -b ch.netspan.xaraya.modules.bermuda.shop
+git pull
+
+
+
+ch.netspan.xaraya.modules.export
+
+
+mkdir export
+cd export
+git init
+git remote add -t ch.netspan.xaraya.modules.export -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.export
+git checkout -b ch.netspan.xaraya.modules.export
+git pull
+----------------------------------
+/* Translation module*/
+
+mkdir tranlsations
+cd tranlsations
+git init
+git remote add -t com.xaraya.modules.jamaica.translations -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.jamaica.translations
+git checkout -b com.xaraya.modules.jamaica.translations
+git pull
+----------------------------------------
+/* Grader module*/
+
+
+mkdir grader
+cd grader
+git init
+git remote add -t ch.netspan.xaraya.modules.grader -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.grader
+git checkout -b ch.netspan.xaraya.modules.grader
+git pull
+--------------------------------------------
+
+/* calendar module*/
+
+mkdir calendar
+cd calendar
+git init
+git remote add -t com.xaraya.modules.bermuda.calendar -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.bermuda.calendar
+git checkout -b com.xaraya.modules.bermuda.calendar
+git pull
+--------------------------------------------
+
+/* address property*/
+
+mkdir address
+cd address
+git init
+git remote add -t com.xaraya.properties.jamaica.address -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.address
+git checkout -b com.xaraya.properties.jamaica.address
+git pull
+-----------------------------------
+/com.xaraya.themes.twit
+
+mkdir twit
+cd twit
+git init
+git remote add -t com.xaraya.themes.twit -f origin https://github.com/xaraya/themes
+git checkout origin/com.xaraya.themes.twit
+git checkout -b com.xaraya.themes.twit
+git pull
+
+
+-----------------
+/*chmusica Theme*/
+
+mkdir woertzpurple
+cd woertzpurple
+git init
+git remote add -t ch.netspan.themes.woertzpurple -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.themes.woertzpurple
+git checkout -b ch.netspan.themes.woertzpurple
+
+---------------------------------------
+/*sae Theme*/
+
+mkdir sae
+cd sae
+git init
+git remote add -t ch.netspan.xaraya.themes.sae -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.xaraya.themes.sae
+git checkout -b ch.netspan.xaraya.themes.sae
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "profile page changes"
+git push
+
+--------------------------------------------------------
+
+/* eventhub module*/
+
+mkdir eventhub
+cd eventhub
+git init
+git remote add -t ch.netspan.xaraya.modules.eventhub -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.eventhub
+git checkout -b ch.netspan.xaraya.modules.eventhub
+git pull
+-------------------------------------------
+
+/* toxins_db module*/
+
+mkdir toxins_db
+cd toxins_db
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.toxins_db -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.toxins_db
+git checkout -b ch.netspan.xaraya.modules.bermuda.toxins_db
+git pull
+---------------------------------------
+
+/* chealthmod module*/
+
+mkdir chealthmod
+cd chealthmod
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.chealthmod -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.chealthmod
+git checkout -b ch.netspan.xaraya.modules.bermuda.chealthmod
+git pull
+---------------------------------------
+/* forms module*/
+
+mkdir forms
+cd forms
+git init
+git remote add -t ch.netspan.xaraya.modules.arcturus.forms -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.arcturus.forms
+git checkout -b ch.netspan.xaraya.modules.arcturus.forms
+git pull
+
+-------------------------------------------
+/* recommend module*/
+
+mkdir recommend
+cd recommend
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.recommend -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.recommend
+git checkout -b ch.netspan.xaraya.modules.bermuda.recommend
+git pull
+
+-------------------------------------------
+/* Mailer module*/
+
+mkdir mailer
+cd mailer
+git init
+git remote add -t ch.netspan.xaraya.modules.arcturus.mailer -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.arcturus.mailer
+git checkout -b ch.netspan.xaraya.modules.arcturus.mailer
+git pull
+
+-------------------------------------------
+/* simpleadmin module*/
+
+mkdir simpleadmin
+cd simpleadmin
+git init
+git remote add -t ch.netspan.xaraya.modules.simpleadmin -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.simpleadmin
+git checkout -b ch.netspan.xaraya.modules.simpleadmin
+git pull
+
+
+-------------------------------------------
+/* registration module*/
+
+mkdir registration
+cd registration
+git init
+git remote add -t ch.netspan.xaraya.modules.arcturus.registration -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.arcturus.registration
+git checkout -b ch.netspan.xaraya.modules.arcturus.registration
+git pull
+
+-------------------------------------------
+/* Publications module*/
+
+mkdir publications
+cd publications
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.publications -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.publications
+git checkout -b ch.netspan.xaraya.modules.bermuda.publications
+git pull
+
+-------------------------------------------
+/* html module*/
+
+mkdir html
+cd html
+git init
+git remote add -t com.xaraya.modules.jamaica.html.2.4 -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.jamaica.html.2.4
+git checkout -b com.xaraya.modules.jamaica.html.2.4
+git pull
+
+
+-------------------------------------------
+/* mime module*/
+
+mkdir mime
+cd mime
+git init
+git remote add -t com.xaraya.modules.bermuda.mime -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.bermuda.mime
+git checkout -b com.xaraya.modules.bermuda.mime
+git pull
+
+-------------------------------------------
+/* comment module*/
+
+mkdir comments
+cd comments
+git init
+git remote add -t com.xaraya.modules.bermuda.comments -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.bermuda.comments
+git checkout -b com.xaraya.modules.bermuda.comments
+git pull
+
+-------------------------------------------
+/* uploads module*/
+
+mkdir uploads
+cd uploads
+git init
+git remote add -t com.xaraya.modules.jamaica.uploads -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.jamaica.uploads
+git checkout -b com.xaraya.modules.jamaica.uploads
+git pull
+
+--------------------------------------------------
+
+/* Scheduler module*/
+
+mkdir scheduler
+cd scheduler
+git init
+git remote add -t com.xaraya.modules.bermuda.scheduler -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.bermuda.scheduler
+git checkout -b com.xaraya.modules.bermuda.scheduler
+git pull
+
+
+--------------------------------------------
+/* Listing property*/
+
+
+mkdir listing
+cd listing
+git init
+git remote add -t com.xaraya.properties.bermuda.listing -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.bermuda.listing
+git checkout -b com.xaraya.properties.bermuda.listing
+git pull
+
+
+--------------------------------------------
+
+/* languages property*/
+mkdir languages
+cd languages
+git init
+git remote add -t com.xaraya.properties.jamaica.language -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.language
+git checkout -b com.xaraya.properties.jamaica.language
+git pull
+-----------------------------------
+
+/* datetime property*/
+mkdir datetime
+cd datetime
+git init
+git remote add -t com.xaraya.properties.jamaica.datetime -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.datetime
+git checkout -b com.xaraya.properties.jamaica.datetime
+git pull
+-----------------------------------
+
+/* pager property*/
+mkdir pager
+cd pager
+git init
+git remote add -t com.xaraya.properties.jamaica.pager -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.pager
+git checkout -b com.xaraya.properties.jamaica.pager
+git pull
+-----------------------------------
+
+/* jqdatetime property*/
+mkdir jqdatetime
+cd jqdatetime
+git init
+git remote add -t com.xaraya.properties.jamaica.jqdatetime -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.jqdatetime
+git checkout -b com.xaraya.properties.jamaica.jqdatetime
+git pull
+-----------------------------------
+
+/* codemirror property*/
+mkdir codemirror
+cd codemirror
+git init
+git remote add -t com.xaraya.properties.jamaica.codemirror -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.codemirror
+git checkout -b com.xaraya.properties.jamaica.codemirror
+git pull
+-----------------------------------
+
+/* iconcheckbox property*/
+mkdir iconcheckbox
+cd iconcheckbox
+git init
+git remote add -t com.xaraya.properties.jamaica.iconcheckbox -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.iconcheckbox
+git checkout -b com.xaraya.properties.jamaica.iconcheckbox
+git pull
+-----------------------------------
+
+/* icondropdown property*/
+mkdir icondropdown
+cd icondropdown
+git init
+git remote add -t com.xaraya.properties.jamaica.icondropdown -f origin https://github.com/xaraya/properties
+git checkout origin/com.xaraya.properties.jamaica.icondropdown
+git checkout -b com.xaraya.properties.jamaica.icondropdown
+git pull
+
+
+
+
+/* name property*/
+mkdir name
+cd name
+git init
+git remote add -t com.xaraya.properties.jamaica.name -f origin https://github.com/xaraya/properties
+
+git remote add -t com.xaraya.properties.jamaica.name -f origin https://github.com/xaraya/properties|
+
+git checkout origin/com.xaraya.properties.jamaica.name
+git checkout -b com.xaraya.properties.jamaica.name
+git pull
+
+
+
+
+-----------------------------------
+/*publications module*/
+
+mkdir publications
+cd publications
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.publications -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.publications
+git checkout -b ch.netspan.xaraya.modules.bermuda.publications
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "monor changes for notification"
+git push
+
+
+
+__________________________________________
+/*EAV module*/
+
+mkdir eav
+cd eav
+git init
+git remote add -t com.xaraya.modules.bermuda.eav -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.bermuda.eav
+git checkout -b com.xaraya.modules.bermuda.eav
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "Query class changes in EAV module"
+git push
+
+------------------------------------
+
+/*DAM module*/
+
+mkdir dam
+cd dam
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.dam -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.dam
+git checkout -b ch.netspan.xaraya.modules.bermuda.dam
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "added error template for show and download link error"
+git push
+---------------------------------------
+
+/*Members module*/
+
+mkdir members
+cd members
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.members -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.members
+git checkout -b ch.netspan.xaraya.modules.bermuda.members
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "change in class file"
+git push
+
+
+--------------------------------------------
+
+/*Shop module*/
+
+mkdir shop
+cd shop
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.shop -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.shop
+git checkout -b ch.netspan.xaraya.modules.bermuda.shop
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "Fixed side menu issue due to id in URL"
+git push
+
+
+-------------------------------------------------
+
+/*Spiel module*/
+
+
+mkdir spiel
+cd spiel
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.spiel -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.spiel
+git checkout -b ch.netspan.xaraya.modules.bermuda.spiel
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "added composer defination"
+git push
+
+
+---------------------------------------
+/*Eventhub Theme*/
+
+
+mkdir eventhub
+cd eventhub
+git init
+git remote add -t ch.netspan.themes.eventhub -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.themes.eventhub
+git checkout -b ch.netspan.themes.eventhub
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "Changed calendar top navigation link"
+git push
+
+-----------------------------------
+
+/*ckeditor module*/
+
+
+mkdir ckeditor
+cd ckeditor
+git init
+git remote add -t ch.netspan.xaraya.modules.ckeditor -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.ckeditor
+git checkout -b ch.netspan.xaraya.modules.ckeditor
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "added fieldlist to listing property call in template"
+git push
+___________________________________
+/*nibn module*/
+
+mkdir nibn
+cd nibn
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.nibn -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.nibn
+git checkout -b ch.netspan.xaraya.modules.bermuda.nibn
+git pull
+
+______________________________________________
+
+/*spiel theme*/
+
+mkdir spiel
+cd spiel
+git init
+git remote add -t ch.netspan.themes.spiel -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.themes.spiel
+git checkout -b ch.netspan.themes.spiel
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "created template as per markup"
+git push
+____________________________
+
+
+/*nibn theme*/
+
+mkdir nibn
+cd nibn
+git init
+git remote add -t ch.netspan.themes.nibn -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.themes.nibn
+git checkout -b ch.netspan.themes.nibn
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "remove debug statement"
+git push
+-----------------------------------
+mkdir registration
+cd registration
+git init
+git remote add -t ch.netspan.xaraya.modules.arcturus.registration -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.arcturus.registration
+git checkout -b ch.netspan.xaraya.modules.arcturus.registration
+git pull
+
+
+
+_____________________________
+
+
+
+
+mkdir arche
+cd arche
+git init
+git remote add -t ch.netspan.themes.arche -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.themes.arche
+git checkout -b ch.netspan.themes.arche
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "fixed language link issue"
+git push
+
+
+
+--------------------------------------------
+/* categories module*/
+
+mkdir categories
+cd categories
+git init
+git remote add -t com.xaraya.modules.categories -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.categories
+git checkout -b com.xaraya.modules.categories
+git pull
+-------------------------------------------
+
+/*simplenews blocks/
+
+mkdir simplenews
+cd simplenews
+git init
+git remote add -t com.xaraya.blocks.jamaica.simplenews -f origin https://github.com/xaraya/blocks
+git checkout origin/com.xaraya.blocks.jamaica.simplenews
+git checkout -b com.xaraya.blocks.jamaica.simplenews
+git pull
+------------------------------
+/* socialmediaicons property */
+-> mkdir socialmediaicons
+-> cd socialmediaicons
+-> git init
+-> git remote add -t com.xaraya.properties.bermuda.socialmediaicons -f origin https://github.com/xaraya/properties
+-> git checkout origin/com.xaraya.properties.bermuda.socialmediaicons
+-> git checkout -b com.xaraya.properties.bermuda.socialmediaicons
+-> git pull
+--------------------------------
+
+/*grader theme*/
+
+mkdir grader
+cd grader
+git init
+git remote add -t ch.lc.xaraya.themes.grader -f origin https://github.com/random777/themes
+git checkout origin/ch.lc.xaraya.themes.grader
+git checkout -b ch.lc.xaraya.themes.grader
+git pull
+-----------
+
+mkdir grader
+cd grader
+git init
+git remote add -t ch.lc.xaraya.themes.grader -f origin https://github.com/random777/themes
+git checkout origin/ch.lc.xaraya.themes.grader
+git checkout -b ch.lc.xaraya.themes.grader
+git pull
+__________________
+
+
+/* number property */
+-> mkdir number
+-> cd number
+-> git init
+-> git remote add -t com.xaraya.properties.jamaica.number -f origin https://github.com/xaraya/properties
+-> git checkout origin/com.xaraya.properties.jamaica.number
+-> git checkout -b com.xaraya.properties.jamaica.number
+-> git pull
+
+---------------
+/* isp module*/
+
+mkdir isp
+cd isp
+git init
+git remote add -t ch.netspan.xaraya.modules.isp -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.isp
+git checkout -b ch.netspan.xaraya.modules.isp
+git pull
+
+-------------
+/* ledgerba module*/
+
+mkdir ledgerba
+cd ledgerba
+git init
+git remote add -t ch.netspan.ledger.ledgerba -f origin https://github.com/random777/ledger
+git checkout origin/ch.netspan.ledger.ledgerba
+git checkout -b ch.netspan.ledger.ledgerba
+git pull
+-------------------
+
+
+/* mimic property */
+-> mkdir mimic
+-> cd mimic
+-> git init
+-> git remote add -t com.xaraya.properties.bermuda.mimic -f origin https://github.com/xaraya/properties
+-> git checkout origin/com.xaraya.properties.bermuda.mimic
+-> git checkout -b com.xaraya.properties.bermuda.mimic
+-> git pull
+
+------------------------
+/* ledgerar module*/
+
+mkdir ledgerar
+cd ledgerar
+git init
+git remote add -t ch.netspan.ledger.ledgerar -f origin https://github.com/random777/ledger
+git checkout origin/ch.netspan.ledger.ledgerar
+git checkout -b ch.netspan.ledger.ledgerar
+git pull
+-------------------
+
+/* ledgergl module*/
+
+mkdir ledgergl
+cd ledgergl
+git init
+git remote add -t ch.netspan.ledger.ledgergl -f origin https://github.com/random777/ledger
+git checkout origin/ch.netspan.ledger.ledgergl
+git checkout -b ch.netspan.ledger.ledgergl
+git pull
+-------------------
+/* ledgerap module*/
+
+mkdir ledgerap
+cd ledgerap
+git init
+git remote add -t ch.netspan.ledger.ledgerap -f origin https://github.com/random777/ledger
+git checkout origin/ch.netspan.ledger.ledgerap
+git checkout -b ch.netspan.ledger.ledgerap
+git pull
+
+-------------------
+/* ledgerse module*/
+
+mkdir ledgerse
+cd ledgerse
+git init
+git remote add -t ch.netspan.ledger.ledgerse -f origin https://github.com/random777/ledger
+git checkout origin/ch.netspan.ledger.ledgerse
+git checkout -b ch.netspan.ledger.ledgerse
+git pull
+-------------------
+/* ledgerso module*/
+
+mkdir ledgerso
+cd ledgerso
+git init
+git remote add -t ch.netspan.ledger.ledgerso -f origin https://github.com/random777/ledger
+git checkout origin/ch.netspan.ledger.ledgerso
+git checkout -b ch.netspan.ledger.ledgerso
+git pull
+-------------------
+
+* customers module*/
+
+mkdir customers
+cd customers
+git init
+git remote add -t ch.netspan.xaraya.modules.bermuda.customers -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.bermuda.customers
+git checkout -b ch.netspan.xaraya.modules.bermuda.customers
+git pull
+
+-------------------
+
+/*sae Theme*/
+
+mkdir sae
+cd sae
+git init
+git remote add -t ch.netspan.xaraya.themes.sae -f origin https://github.com/random777/themes
+git checkout origin/ch.netspan.xaraya.themes.sae
+git checkout -b ch.netspan.xaraya.themes.sae
+git pull
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "profile page changes"
+git push
+
+
+
+-------------------
+
+/*sae modules*/
+
+mkdir dam
+cd dam
+git init
+git remote add -t ch.netspan.xaraya.themes.sae/modules -f origin https://github.com/random777/themes/sae/modules
+git checkout origin/ch.netspan.xaraya.themes.sae/modules/dam
+git checkout -b ch.netspan.xaraya.themes.sae/modules/dam
+git pull
+
+
+git add .
+git status
+git add -u
+git status
+git commit -a -m "profile page changes"
+git push
+
+----------------------------------------
+
+/* keywords module*/
+
+mkdir keywords
+cd keywords
+git init
+git remote add -t com.xaraya.modules.jamaica.keywords -f origin https://github.com/xaraya/modules
+git checkout origin/com.xaraya.modules.jamaica.keywords
+git checkout -b com.xaraya.modules.jamaica.keywords
+git pull
+-------------------------------------------
+
+
+
+* companies module*/
+
+mkdir companies
+cd companies
+git init
+git remote add -t ch.netspan.xaraya.modules.companies -f origin https://github.com/random777/modules
+git checkout origin/ch.netspan.xaraya.modules.companies
+git checkout -b ch.netspan.xaraya.modules.companies
+git pull
+
+

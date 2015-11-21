@@ -1,0 +1,13 @@
+<!DOCTYPE httml><html><head></head><body>
+<script type="text/javascript"> 
+function mFunction(){
+var name = new LiveValidation( "name");
+name.add( Validate.Numericality, 
+              {maximum:200} );
+}</script>
+<form>
+name:<input type="name" name="name" id="name"/><br>
+
+<input type="submit" value="submit" onclick="mFunction()">
+</form>
+</body></html>

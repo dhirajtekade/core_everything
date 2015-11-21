@@ -1,0 +1,159 @@
+body,td,th {
+    font-family: Verdana;
+    font-size: 8pt;
+}
+body {
+    margin-left:0;
+    margin-top:0;
+}
+
+A{
+    text-decoration:none;
+}
+TD {
+    FONT: 11px tahoma,verdana,arial; COLOR: #777777
+}
+.titlename {
+    FONT: 40px tahoma,verdana,arial; COLOR: #8884bc
+}
+.note {
+    FONT: 18px tahoma,verdana,arial; COLOR: #8884bc
+}
+.blue11px {
+    FONT: 11px tahoma,verdana,arial; COLOR: #0a4696
+}
+.blue12px {
+    FONT: 12px tahoma,verdana,arial; COLOR: #0a4696
+}
+.blue14px {
+    FONT: 14px tahoma,verdana,arial; COLOR: #0a4696
+}
+.blue16px {
+    FONT: 16px tahoma,verdana,arial; COLOR: #0a4696
+}
+.orange11px {
+    FONT: 11px tahoma,verdana,arial; COLOR: #ff9562
+}
+.orange12px {
+    FONT: 12px tahoma,verdana,arial; COLOR: #ff9562
+}
+.orange18px {
+    FONT: bold 18px tahoma,verdana,arial; COLOR: #ff9562
+}
+.purple11px {
+    FONT: 11px tahoma,verdana,arial; COLOR: #997cad
+}
+.purple12px {
+    FONT: 12px tahoma,verdana,arial; COLOR: #997cad
+}
+.purple14px {
+    FONT: 14px tahoma,verdana,arial; COLOR: #997cad
+}
+.purple16px {
+    FONT: 16px tahoma,verdana,arial; COLOR: #997cad
+}
+.gray11px {
+    FONT: 11px tahoma,verdana,arial; COLOR: #6c6c6c
+}
+.gray12px {
+    FONT: 12px tahoma,verdana,arial; COLOR: #777777
+}
+.gray14px {
+    FONT: 14px tahoma,verdana,arial; COLOR: #777777
+}
+.gray16px {
+    FONT: 16px tahoma,verdana,arial; COLOR: #777777
+}
+.gray18px {
+    FONT: 18px tahoma,verdana,arial; COLOR: #777777
+}
+.red12px {
+    FONT: 12px tahoma,verdana,arial; COLOR: #ff0000
+}
+.red11px {
+    FONT: bold 11px tahoma,verdana,arial; COLOR: #ff0000
+}
+.red10px {
+    FONT: bold 10px tahoma,verdana,arial; COLOR: #ff0000
+}
+.red18px {
+    FONT: bold 18px tahoma,verdana,arial; COLOR: #ff0000
+}
+.darkred11px {
+    FONT: bold 11px tahoma,verdana,arial; COLOR: #d00f16
+}
+.gray_disclaimer {
+    FONT: 10px tahoma,verdana,arial; COLOR: #888888
+}
+.statsblue {
+    FONT: 12px tahoma,verdana,arial; COLOR: #4978b8
+}
+.statsgray {
+    FONT: 12px tahoma,verdana,arial; COLOR: #7b7b7b
+}
+.smallblue {
+    FONT: bold 10px tahoma,verdana,arial; COLOR: #0b3b90
+}
+.smallgray {
+    FONT: 10px tahoma,verdana,arial; COLOR: #6c6c6c
+}
+.smallred {
+    FONT: 10px tahoma,verdana,arial; COLOR: #ff0000
+}
+.xform {
+    FONT: 10px tahoma,verdana,arial; COLOR: #0b3b90
+}
+.xformn {
+    FONT: 11px tahoma,verdana,arial; COLOR: #0b3b90
+}
+.xforms {
+    FONT: 8px tahoma,verdana,arial; COLOR: #0b3b90
+}
+.xformh {
+    FONT: 10px tahoma,verdana,arial; COLOR: #ff00ff
+}
+.xformb {
+    FONT: bold 10px tahoma,verdana,arial; COLOR: #0b3b90
+}
+.xformr {
+    FONT: bold 10px tahoma,verdana,arial; COLOR: #ff0000
+}
+.xformbl {
+    FONT: bold 10px tahoma,verdana,arial; COLOR: #ffffff
+}
+A:link {
+    FONT-WEIGHT: bold; COLOR: #4978b8; TEXT-DECORATION: none
+}
+.smallfont {
+    FONT: 2pt Tahoma; COLOR: #ffffff
+}
+.textfield {
+border-style:solid; border-color:#000000; border-width: 1px; background-color:white;
+FONT: 10px verdana; COLOR: #000000
+}
+
+.btnStyle
+{
+    border-style:solid; border-color:#000000; border-width: 1px; background-color:#D4D0C8;
+    FONT: 10px verdana; COLOR:#000000
+}
+
+.chkboxStyle
+{
+    position: absolute;
+    clip: rect(4px 14px 13px 5px);
+    padding: 0px;
+}
+
+.NormalText {font-family: Verdana; font-size: xx-small; color: #333333; }
+
+.BOLDTEXT {font-family: Verdana; font-size: xx-small; color: #333333; font-weight:bold;}
+
+.formHeader {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+.submenu {position:absolute;background-color:#FFFFFF; width:180px;font-family:Verdana;}

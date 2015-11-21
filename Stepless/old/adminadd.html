@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+ <html> <head> <title>Admin Add</title>
+<link rel= "stylesheet" type="text/css" href="styleup.css"> </head>
+	 <body id="body-color">
+	 <div id="Sign-Up">
+	 <fieldset style="width:30%"><legend>Add Entry</legend>
+		 <table border="0">
+		<tr><form method="POST" action="adminaddEntry.php">
+		 <td>Book Name</td><td> 
+			<input type="text" name="bName" autofocus></td>
+		</tr> <tr> <td>Author Name</td><td>
+			<input type="text" name="bAuthor"></td> </tr>
+		 <tr> <td>Price</td><td>
+			<input type="number" name="bPrice"></td> 
+		 <tr><td>Genre</td><td>
+			<select name="bType" value="bType" >
+				<option value="">Select the type of books:</option>
+				<option value="technology">Technology</option>
+				<option value="children">Children</option>
+				<option value="literature">Literature</option>
+				<option value="spiritual">Spiritual</option>
+			</select>
+		 <tr> <td>Availability</td><td>
+			<input type="boolean" name="bAvail"></td>
+		 </tr> <tr> <td><input id="button" type="submit" name="submit" value="Add New Entry"></td>
+		 </tr>
+		 </form>
+		 </table>
+	 </fieldset> </div> 
+	 </body> </html>
+

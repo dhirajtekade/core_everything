@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xar:template xmlns:xar="http://xaraya.com/2004/blocklayout">
+    <!-- License: GPL http://www.gnu.org/copyleft/gpl.html -->
+    <xar:template file="user-mod-head"/>
+    <div class="xar-mod-body">
+        <h2>Member List Test <xar:data-output property="$properties['resource']" /></h2>
+        
+        <form method="post" action="#xarServer::getCurrentURL()#" enctype="multipart/form-data">
+          <div class="xar-row">
+            <div class="xar-col">
+                Recipient
+            </div>
+            <div class="xar-col">
+                   <xar:set name="firstline">'Select User List'</xar:set>
+                <xar:data-input type="dropdown" options="$lists" id="recipient" name="recipient" firstline="$firstline" value="$recipient"/>
+            </div>
+
+            <div class="xar-col"></div>
+            <div class="xar-col">
+                <input type="hidden" name="authid" id="authid" value="#xarSecGenAuthKey()#"/>
+                <input type="hidden" name="name" id="name" value="#$object:name#"/>
+                <input type="hidden" name="itemid" id="itemid" value="#$object:itemid#"/>
+                <input type="hidden" name="tplmodule" id="tplmodule" value="#$tplmodule#"/>
+                <input type="hidden" name="confirm" id="confirm" value="true"/>
+                <xar:var name="label">Cancel</xar:var>
+                <xar:button type="cancel" label="$label"/>
+                <xar:var name="label">Send</xar:var>
+                <xar:button type="submit" label="$label" class="btn-primary"/>
+            </div>
+          </div>
+        </form>
+
+        <xar:if condition="!empty($users)">
+	        <table border="1" width="100%" style="border-radius:10px;">
+	      		<tr style="background:rgb(0,85,204); color: White; font-weight: bold;">
+	      			<td width="20%">
+	      				ID
+	      			</td>
+	      			<td width="25%">
+	      				First Name
+	      			</td>
+	      			<td width="25%">
+	      				Last Name
+	      			</td>
+	      			<td width="30%">
+	      				Email
+	      			</td>
+	      		</tr>
+	      		<tr>
+	      		<td></td>
+	      		</tr>
+	      		<xar:foreach in="$users" value="$key">
+	      		<tr width="100%">
+	      			<td width="20%">
+	      				#$key['id']#
+	      			</td>
+	      			<td width="25%">
+	      				#$key['first_name']#
+	      			</td>
+	      			<td width="25%">
+	      				#$key['last_name']#
+	      			</td>
+	      			<td width="30%">
+	      				#$key['email']#
+	      			</td>
+	      		</tr>
+	      		</xar:foreach>
+			</table>
+			<xar:else />
+				No users found!
+		</xar:if>	
+      </div>
+</xar:template>

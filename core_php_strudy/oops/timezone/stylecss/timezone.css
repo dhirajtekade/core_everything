@@ -1,0 +1,134 @@
+body {
+    background-color: #5F9EA0;
+}
+/* fieldset */
+/* table */
+.table {
+	border: 2px solid #a1a1a1;
+	background: #87CEEB; 
+   	width: 300px;
+    border-radius: 20px;
+    float: left;
+    box-shadow: 10px 10px 5px #419B9E;
+    padding:10px;
+    margin:2px;
+
+    /*margin:5px;*/
+}
+td {
+	/*width :50px;*/
+}
+.validation {
+	background: url('images/male.jpg') repeat;
+}
+.hasDatepicker {
+
+}
+.confirmdata, .result  {
+ display: inline-block; 
+	padding: 10px;
+	background: url('images/.jpg') repeat;
+	background-color: #ffffff;
+	border-radius :10px;
+	opacity: 0.6;
+    filter: alpha(opacity=60);/* For IE8 and earlier */
+	/* border: dotted; */
+	border-color: #98bf21;
+	width: 600px;
+	margin:10px;
+	background: -webkit-linear-gradient(white, #DFE7F4); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #DFE7F4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #DFE7F4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, #DFE7F4); /* Standard syntax */
+	box-shadow: 10px 10px 5px #419B9E;	
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+.confirmdata :hover {
+	width: 800px;
+}
+.resultBox {
+	border-color: #98bf21;
+}
+.result {
+	/*border: dotted;
+	border-color: #98bf21;
+	padding: 10px;*/
+}
+/* common css */
+h3 {
+    color: blue;
+    text-align: left;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+ul {
+    list-style-image: url('images/veg.svg');
+}
+fieldset {
+	/* border-color: #98bf21;*/
+	
+}
+input[type=text], input[type=email], input[type=dropdown], select {
+   /* width: 150px; */
+   /* display: block;*/
+    margin-bottom: 2px;
+    background-color:#FFFFE0;
+      border-radius: 5px;
+}
+input {
+}
+input[type=button],input[type=reset]  {
+   /*  width: 120px; */
+  /*  margin-left: 35px; */
+    display: block; 
+}
+
+
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea));
+	background:-moz-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+	background:-webkit-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+	background:-o-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+	background:-ms-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea',GradientType=0);
+	background-color:#bddbfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa));
+	background:-moz-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-webkit-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-o-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-ms-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa',GradientType=0);
+	background-color:#80b5ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

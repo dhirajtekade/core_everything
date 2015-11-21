@@ -1,0 +1,1 @@
+open position.php and select one node by clicking radio button referring that node and click the submit button to see the relationship in shownode.php file

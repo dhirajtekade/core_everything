@@ -1,0 +1,112 @@
+*{
+margin: 5px;
+padding:0px;
+}
+h1 {
+	font: bold 20px Tahoma;
+}
+h2 {
+	font: bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body {
+	text-align:center;
+	
+}
+
+#userSignin {
+	float: left;
+	background: LightGoldenRodYellow  ;
+	border-radius:10px;
+	box-shadow: 2px 2px 2px #888888;
+	color: Gray;
+	-webkit-transition:-webkit-transform 1s, 
+		background 1s,
+		width 1s, height 1s, box-shadow 1s;	
+ }
+ #userSignin:hover{
+	-webkit-transform: scale(1.2,1.2);
+	box-shadow: 10px 10px 10px DarkKhaki ;
+} 
+
+
+#userSignUp{
+	float: right;
+	width: 400px;	
+}
+#legendSignin{
+	font-weight: bold;
+	color: red;
+}
+
+#button{ 
+	border-radius:10px;
+	width:80px; 
+	height:25px;
+	font-weight:bold;
+	background: -webkit-linear-gradient(top, white, yellow);
+ }
+ #button:hover{ border-radius:10px;
+ width:80px; height:25px;
+ background:Orange;
+ font-weight:bold; 
+ }
+#adminIn{
+	border-radius:5px;
+	background: Khaki;
+	width:120px;
+}
+#adminLoginText{
+	font-style: Tahoma;
+	color: red;
+}
+
+#userIn{
+	border-radius:5px;
+	background:LemonChiffon;
+}
+#main_div{
+	
+	background: Khaki ;
+	border-radius:10px;
+	box-shadow: 10px 10px 5px #888888;
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;
+	padding: 7px;
+	text-align: left;
+	-webkit-box-orient: horizontal;
+}
+
+#header{
+	width: 950px;
+	height: 100px;
+	border: 1px solid yellow;
+	padding: 20px;
+	margin-bottom: 25px;
+	-webkit-border-radius :18px;
+	-webkit-border-shadow: rgb(110,110,110) 10px 10px 10px;
+	background: -webkit-linear-gradient(top, white, #BDB76B );
+	background-image: "logo.png";
+  background-color: #F07575; /* fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, white, DarkKhaki); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image: -moz-linear-gradient(top, white, #BDB76B); /* For Firefox (3.6 to 15) */
+  background-image: -o-linear-gradient(top, white, DarkKhaki); /* For old Opera (11.1 to 12.0) */ 
+  background-image: linear-gradient(to bottom, white, DarkKhaki); /* Standard syntax; must be last */
+}
+#header_title{ 
+	width: 550px;
+	font: bold 30px Samarkan;
+	color: LightCoral;
+}
+#captcha{
+	float: left;
+	background: -webkit-radial-gradient(top, Gray, orange);
+	text-align: left;
+	-webkit-border-radius :5px;
+	width:50px;
+	border: 1px solid Gold;
+	height:20px;
+}
